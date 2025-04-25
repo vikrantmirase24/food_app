@@ -30,7 +30,7 @@ const Home = () => {
         <div className="menu-grid">
           {menuItems.map((item) => (
             <div key={item.id} className="menu-card">
-              <img src={item.image} alt={item.name} className="menu-image" />
+              <img src={`${process.env.REACT_APP_BASE_URL}item.image`} alt={item.name} className="menu-image" />
               <h4 className="font-semibold mt-2">{item.name}</h4>
               <p className="text-gray-500 text-sm">{item.category}</p>
             </div>

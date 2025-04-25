@@ -36,7 +36,7 @@ const Menu = () => {
       <div className="menu-grid">
         {menuItems.map((item) => (
           <div key={item.id} className="card">
-            <img src={item.image} alt={item.name} className="card-image" />
+            <img src={`${process.env.REACT_APP_BASE_URL}item.image`} alt={item.name} className="card-image" />
             <h3 className="text-xl font-semibold mt-3">{item.name}</h3>
             <p className="text-gray-600 text-lg">${item.price}</p>
 
