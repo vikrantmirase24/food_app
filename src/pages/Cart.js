@@ -19,7 +19,7 @@ const Cart = () => {
             >
               {/* Image */}
               <img
-                src={`${process.env.REACT_APP_BASE_URL}item.image`}
+                src={`${process.env.REACT_APP_BASE_URLitem.image}`}
                 alt={item.name}
                 className="w-full h-40 object-cover"
               />
