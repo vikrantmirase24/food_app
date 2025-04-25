@@ -1,11 +1,11 @@
 const Home = () => {
   const menuItems = [
-    { id: 1, name: "Garlic Alfredo", category: "Comfort Food Classics", image: "/images/garlic.jpg" },
-    { id: 2, name: "Albaloo Polo", category: "International Eats", image: "/images/albaloo-polo.jpg" },
-    { id: 3, name: "Breakfast Casserole", category: "Breakfast & Brunch", image: "/images/breakfast-casserole.jpg" },
-    { id: 4, name: "Fruit Salad", category: "Community Picks", image: "/images/fruit-salad.jpg" },
-    { id: 5, name: "Quick & Easy Cover", category: "Egg Vegies", image: "/images/egg-vegies.jpg" },
-    { id: 6, name: "Dragonfruit Refresher", category: "Copycat Recipes", image: "/images/dragonfruit-refresher.jpg" },
+    { id: 1, name: "Garlic Alfredo", category: "Comfort Food Classics", image: "/garlic.jpg" },
+    { id: 2, name: "Albaloo Polo", category: "International Eats", image: "/albaloo-polo.jpg" },
+    { id: 3, name: "Breakfast Casserole", category: "Breakfast & Brunch", image: "/breakfast-casserole.jpg" },
+    { id: 4, name: "Fruit Salad", category: "Community Picks", image: "/fruit-salad.jpg" },
+    { id: 5, name: "Quick & Easy Cover", category: "Egg Vegies", image: "/egg-vegies.jpg" },
+    { id: 6, name: "Dragonfruit Refresher", category: "Copycat Recipes", image: "/dragonfruit-refresher.jpg" },
   ];
 
   return (

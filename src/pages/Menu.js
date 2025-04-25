@@ -2,12 +2,12 @@ import { useState } from "react";
 import { useCart } from "../context/CartContext";
 
 const menuItems = [
-  { id: 1, name: "Pizza", price: 10, image: "/images/pizza.jpg" },
-  { id: 2, name: "Burger", price: 8, image: "/images/burger.jpg" },
-  { id: 3, name: "Pasta", price: 12, image: "/images/pasta.jpg" },
-  { id: 4, name: "Sandwich", price: 7, image: "images/sandwich.jpg" },
-  { id: 5, name: "Salad", price: 6, image: "/images/salad.jpg" },
-  { id: 6, name: "Sushi", price: 15, image: "/images/sushi.jpg" },
+  { id: 1, name: "Pizza", price: 10, image: "/pizza.jpg" },
+  { id: 2, name: "Burger", price: 8, image: "/burger.jpg" },
+  { id: 3, name: "Pasta", price: 12, image: "/pasta.jpg" },
+  { id: 4, name: "Sandwich", price: 7, image: "/sandwich.jpg" },
+  { id: 5, name: "Salad", price: 6, image: "/salad.jpg" },
+  { id: 6, name: "Sushi", price: 15, image: "/sushi.jpg" },
 ];
 
 const Menu = () => {
